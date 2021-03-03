@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 feb. 2021, 14:10:59
+    Author     : irene
+*/
+
+body{
+    height: 50vh;
+    width: 50vw;
+    display: block;
+    margin:auto;
+    display: flex;
+    justify-content:center; 
+    background-color: blue;
+}
+label{
+    color:white;
+}
+.boton{
+    border: green;
+    background-color: red;
+    border-radius:10px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font: italic bold 12pt "Arial";
+}
+.boton:hover{
+  background-color: orange;
+  box-shadow: 2px 2px 2px red;
+  color: black;
+}
+
+@media screen and (max-width: 880px) {
+    body{
+        background-color: #5bc0de;
+    }   
+    label{
+        color: greenyellow;
+    }
+    .boton{
+        background-color: blue;
+    }
+}
