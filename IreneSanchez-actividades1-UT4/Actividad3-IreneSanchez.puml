@@ -1,0 +1,51 @@
+@startuml Act3-IreneSanchez
+
+class Tienda{
+    #cif : string
+    #ubicacion : string
+    #nombre : string
+}
+
+class Cliente{
+    # dni : string
+    # nombre : string
+    # telefono : integer
+}
+
+class Equipo{
+    # equipoAlquilado : bool
+    # fechaAlquiler : DateTime
+    # fechaDevolucion : DateTime
+    # DarDeBaja() : boolean
+}
+
+class Esqui{
+    # numeroSerie : integer
+}
+
+class Gafas{
+    # marca : string
+    # modelo : string
+    # numeroSerie : integer
+}
+
+class Baston{
+    # marca : string
+    # modelo : string
+    # numeroSerie : integer
+}
+
+class MarcaEsqui{
+    # direccionProveedor : string
+    # servicioTecnico : string
+}
+
+Tienda "1" --> "*" Equipo
+Tienda "1" --> "*" Cliente
+Cliente "1" --> "1" Equipo
+Equipo "1" *--> "2" Esqui
+Equipo "1" *--> "1" Gafas
+Equipo "1" *--> "2" Baston
+MarcaEsqui "1" <--* "*" Esqui
+
+@enduml
