@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classmain" kind="class"><name>main</name>
+  </compound>
+  <compound refid="classpersona" kind="class"><name>persona</name>
+    <member refid="classpersona_1a0961bde2b7b9c4ce92a94c9c5456ef2f" kind="variable"><name>nombre</name></member>
+    <member refid="classpersona_1a6091a87664791110ead8c12f69204000" kind="function"><name>dormir</name></member>
+    <member refid="classpersona_1ac63ac8908b3ec79de7455b88b0ad8453" kind="function"><name>hablar</name></member>
+    <member refid="classpersona_1a809f292f794f51bda2cff997eff6166e" kind="function"><name>contar</name></member>
+    <member refid="classpersona_1a481d7d102bcf1366d9bdde3fcec2dd75" kind="function"><name>adquirirNombre</name></member>
+    <member refid="classpersona_1af2e3e44393212309a592db70b2e512dc" kind="function"><name>decirNombre</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="ejercicio1_8cc" kind="file"><name>ejercicio1.cc</name>
+    <member refid="ejercicio1_8cc_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+</doxygenindex>

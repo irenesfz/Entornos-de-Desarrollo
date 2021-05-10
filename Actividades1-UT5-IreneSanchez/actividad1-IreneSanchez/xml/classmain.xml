@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classmain" kind="class" language="C++" prot="public">
+    <compoundname>main</compoundname>
+    <briefdescription>
+<para>Representa a la clase principal. Se creará un nuevo objeto persona o no, dependiendo de lo que introduzca el usuario. Si se crea un nuevo objeto, el usuario podrá elegir una serie de acciones, si quiere que se vaya a la cama o que cuente hasta cierto numero. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="return"><para>0</para>
+</simplesect>
+Se muestra por pantalla si desea crear una persona con dos posibles opciones. El usuario introducirá 1 si sí quiere crearla o 2 si no. Si introduce 1 crea un nuevo objeto persona. De nuevo el usuario tendrá que elegir. Se muestra por pantalla si el usuario quiere que el nuevo objeto persona creado quiere que se vaya a dormir dejando claro que introduzca 1 para sí y 2 para no. Si introduce 1 el objeto persona iniciará la función dormir. A continuación muestra por pantalla otra actividad con 2 posibles respuestas 1 si sí, 2 si no. Si introduce sí el nuevo objeto iniciará la funcion contar, con un límite como parámetro de entrada. </para>
+    </detaileddescription>
+    <location file="ejercicio1.cc" line="79" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
