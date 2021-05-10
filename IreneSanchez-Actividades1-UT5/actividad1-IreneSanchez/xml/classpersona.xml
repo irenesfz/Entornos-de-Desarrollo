@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classpersona" kind="class" language="C++" prot="public">
+    <compoundname>persona</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpersona_1a0961bde2b7b9c4ce92a94c9c5456ef2f" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char persona::nombre[40]</definition>
+        <argsstring>[40]</argsstring>
+        <name>nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ejercicio1.cc" line="20" column="14" bodyfile="ejercicio1.cc" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpersona_1a6091a87664791110ead8c12f69204000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::dormir</definition>
+        <argsstring>()</argsstring>
+        <name>dormir</name>
+        <briefdescription>
+<para>Método que se usa para dormir al personaje. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>El método saca por pantalla una cadena de caracteres formada por una secuencia de “z” </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ejercicio1.cc" line="13" column="14" bodyfile="ejercicio1.cc" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classpersona_1ac63ac8908b3ec79de7455b88b0ad8453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::hablar</definition>
+        <argsstring>()</argsstring>
+        <name>hablar</name>
+        <briefdescription>
+<para>Método que se usa para que el personaje hable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>El método saca por pantalla una cadena de caracteres formada por una secuencia de “bla” </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ejercicio1.cc" line="14" column="14" bodyfile="ejercicio1.cc" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classpersona_1a809f292f794f51bda2cff997eff6166e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::contar</definition>
+        <argsstring>(int)</argsstring>
+        <name>contar</name>
+        <param>
+          <type>int</type>
+          <defname>limite</defname>
+        </param>
+        <briefdescription>
+<para>Método que se usa para contar. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>El método recibe parámetro (un entero) y saca por pantalla la serie de incrementos desde el número 0 hasta el que indique el parametro de entrada <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>limite</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>número entero hasta el que se va a poder contar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ejercicio1.cc" line="15" column="14" bodyfile="ejercicio1.cc" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classpersona_1a481d7d102bcf1366d9bdde3fcec2dd75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::adquirirNombre</definition>
+        <argsstring>()</argsstring>
+        <name>adquirirNombre</name>
+        <briefdescription>
+<para>Método que se usa para guardar nombre. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>El método saca por pantalla (output) una cadena de caracteres en la que le pide ingresar el nombre. El usuario tiene que introducir su nombre (input). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ejercicio1.cc" line="16" column="14" bodyfile="ejercicio1.cc" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classpersona_1af2e3e44393212309a592db70b2e512dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void persona::decirNombre</definition>
+        <argsstring>()</argsstring>
+        <name>decirNombre</name>
+        <briefdescription>
+<para>Método que se usa para mostrar por pantalla el nombre. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Se va a mostrar por pantalla la cadena de caracteres &quot;Mi nombre es: &quot; seguido del contenido que haya guardado en la variable nombre en el método <ref refid="classpersona_1a481d7d102bcf1366d9bdde3fcec2dd75" kindref="member">adquirirNombre()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ejercicio1.cc" line="17" column="14" bodyfile="ejercicio1.cc" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Representa a una clase. Tiene una serie de funciones y un atributo con los cuales va a desempeñar varias acciones. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Tiene un atributo privado nombre de tipo char con un máximo de 40 caracteres, también tiene 5 funciones/métodos públicos de tipo Void: dormir, hablar, contar (la cual tiene un parámetro de entrada), adquirirNombre y decirNombre. </para>
+    </detaileddescription>
+    <location file="ejercicio1.cc" line="10" column="1" bodyfile="ejercicio1.cc" bodystart="11" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classpersona_1a481d7d102bcf1366d9bdde3fcec2dd75" prot="public" virt="non-virtual"><scope>persona</scope><name>adquirirNombre</name></member>
+      <member refid="classpersona_1a809f292f794f51bda2cff997eff6166e" prot="public" virt="non-virtual"><scope>persona</scope><name>contar</name></member>
+      <member refid="classpersona_1af2e3e44393212309a592db70b2e512dc" prot="public" virt="non-virtual"><scope>persona</scope><name>decirNombre</name></member>
+      <member refid="classpersona_1a6091a87664791110ead8c12f69204000" prot="public" virt="non-virtual"><scope>persona</scope><name>dormir</name></member>
+      <member refid="classpersona_1ac63ac8908b3ec79de7455b88b0ad8453" prot="public" virt="non-virtual"><scope>persona</scope><name>hablar</name></member>
+      <member refid="classpersona_1a0961bde2b7b9c4ce92a94c9c5456ef2f" prot="private" virt="non-virtual"><scope>persona</scope><name>nombre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
