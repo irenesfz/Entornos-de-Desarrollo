@@ -1,7 +1,7 @@
  ```csharp
 console.log("Prácticas de ED")
  ```
-```csharp
+ ```csharp
 console.WriteLine("******************************************")
  ```
 #Repositorio para entregar prácticas de ED
