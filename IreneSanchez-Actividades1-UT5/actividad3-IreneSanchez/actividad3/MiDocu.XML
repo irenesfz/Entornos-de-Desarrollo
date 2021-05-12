@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>actividad3</name>
+    </assembly>
+    <members>
+        <member name="T:Ejercicio06.Microprocesador">
+            <summary>
+            Clase Microprocesador formada por 3 atributos privados: frecuencia, modelo y núcleos
+            </summary>
+        </member>
+        <member name="M:Ejercicio06.Microprocesador.GetFrecuencia">
+            <summary>
+            Accesor del atributo frecuencia que devuelve el valor de la frecuencia
+            </summary>
+            <returns>una variable de tipo float con la frecuencia</returns>
+        </member>
+        <member name="M:Ejercicio06.Microprocesador.GetModelo">
+            <summary>
+            Accesor del atributo modelo que devuelve el valor del modelo
+            </summary>
+            <returns>una variable de tipo string con el modelo</returns>
+        </member>
+        <member name="M:Ejercicio06.Microprocesador.GetNucleos">
+            <summary>
+            Accesor del atributo nucleos que devuelve el valor de los nucleos
+            </summary>
+            <returns>una variable de tipo short con los nucleos</returns>
+        </member>
+        <member name="M:Ejercicio06.Microprocesador.#ctor(System.String,System.Int16,System.Single)">
+            <summary>
+            Constructor de Microprocesador con 3 parámetros de entrada en lo s que se indicarán el modelo, los núcleos y la frecuencia.
+            </summary>
+            <param name="modelo"></param>
+            <param name="nucleos"></param>
+            <param name="frecuencia"></param>
+        </member>
+        <member name="M:Ejercicio06.Microprocesador.ACSV">
+            <summary>
+            Método ACSV devuelve un string formado por los atributos separados por ";"
+            </summary>
+            <returns>devuelve una variable de tipo string con los valores separados por comas"</returns>
+        </member>
+        <member name="M:Ejercicio06.Microprocesador.AMicroprocesador(System.String)">
+            <summary>
+            Método AMicroprocesador separa las comas que haya en el parametro de entrada y los iguala a los atributos para que tomen los mismos valores.
+            </summary>
+            <param name="cadena"></param>
+        </member>
+        <member name="M:Ejercicio06.Microprocesador.ToString">
+            <summary>
+            Método ToString método que sirve para mostrar el modelo, la frecuencia y los núcleor.
+            </summary>
+            <returns>una variabe de tipo string con el valor del modelo, nucleos y frecuencia</returns>
+        </member>
+        <member name="T:Ejercicio06.Program">
+            <summary>
+            Clase principal en la que se desarrollará todo el programa.
+            </summary>
+        </member>
+        <member name="M:Ejercicio06.Program.LeeCSV(System.String)">
+            <summary>
+            Método público LeeCSV se encarga de leer un fichero .csv línea a línea y los pasa a un array de objetos Microprocesador.
+            </summary>
+            <param name="ruta"></param>
+            <returns>un array del objeto Microprocesador</returns>
+        </member>
+        <member name="M:Ejercicio06.Program.ACSV(System.String,Ejercicio06.Microprocesador)">
+            <summary>
+            Método público estático ACSV en los que convierte un objeto en una línea en el fichero .csv que se encuentra en uno de los parámetros de entrada.
+            </summary>
+            <param name="ruta"></param>
+            <param name="microprocesador"></param>
+        </member>
+        <member name="M:Ejercicio06.Program.MuestraMicroprocesadors(Ejercicio06.Microprocesador[])">
+            <summary>
+            Método estático MuestraMicroprocesadors se encarga de mostrar el array de Microprocesadores que se introduce como parámetro de entrada en el método.
+            </summary>
+            <param name="microprocesadors"></param>
+        </member>
+        <member name="M:Ejercicio06.Program.RecogeMicroprocesadores">
+            <summary>
+            Método estático RecogeMicroprocesadores se encarga de crear y devolver un array de microprocesadores con datos de procesadores.
+            </summary>
+            <returns>Array del objeto Microprocesador</returns>
+        </member>
+    </members>
+</doc>
