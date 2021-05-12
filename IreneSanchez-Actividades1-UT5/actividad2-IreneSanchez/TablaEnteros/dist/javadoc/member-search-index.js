@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"TablaEnteros","c":"TablaEnteros","l":"mayorTabla()"},{"p":"TablaEnteros","c":"TablaEnteros","l":"posicionTabla(int)"},{"p":"TablaEnteros","c":"TablaEnteros","l":"sumaTabla()"}]
