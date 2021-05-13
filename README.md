@@ -1,4 +1,4 @@
- ```csharp
+ ```javascript
 console.log("Prácticas de ED")
   ```
  ```csharp
